@@ -4,7 +4,9 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-.DS_Store/
+.DS_Store
+**/.DS_Store
+/data
 
 ### STS ###
 .apt_generated
@@ -15,8 +17,10 @@ build/
 .springBeans
 .sts4-cache
 bin/
+.env
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
 
 ### IntelliJ IDEA ###
 .idea
